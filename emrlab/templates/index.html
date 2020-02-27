@@ -1,0 +1,38 @@
+<html>
+<head>
+    <title>EMR labs</title>
+    <style>
+    header, footer {
+        padding: 1em;
+        color: black;
+        background-color: #848484;
+        clear: left;
+        text-align: center;
+        margin: auto;
+        width: 70%;
+    }
+    </style>
+</head>
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+<body>
+<header>
+    <a><h1><a href="/">Back to Home</a></h1></a>
+</header>
+
+<div id="container">
+    <div class="center"> <p>
+
+{% load markdown_extras %}
+{{ content | markdown | safe }}
+
+    </p></div>
+</div>
+</body>
+
+<footer>
+    <p>Posted by: Euijun</p>
+    <p>Contact information:<a href="mailto:euijj@amazon.com"> euijj@amazon.com</a></p>
+</footer>
+
+</html>

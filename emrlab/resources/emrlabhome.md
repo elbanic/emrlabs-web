@@ -1,0 +1,23 @@
+# EMR Hands-on Lab
+
+Amazon EMR은 업계 최고 수준의 클라우드 네이티브 빅데이터 플랫폼으로, 방대한 양의 데이터를 대규모로 신속하면서 경제적으로 처리합니다. 이번 Lab은 Amazon EMR을 이용하여 데이터 Analytics의 전반적인 과정을 다루는 실습입니다. 
+
+이번 실습을 통해 다음의 아키텍쳐를 실습하고 이해할 수 있습니다.
+     
+<img src="https://public-access-sample-code.s3.ap-northeast-2.amazonaws.com/images/EMR-hands-on-architecture2.jpg" style="width:700px; height:350px">
+
+<hr>
+
+## Hands on Lab의 목표
+
+ * 빅데이터 오픈소스 도구를 이용한 예제를 통해 Analytics 사례를 학습할 수 있습니다.
+ * 작업 부하에 따른 동적 확장성(Autoscaling)을 이용하여 클러스터를 효율적으로 운영하는 방법에 대해 학습할 수 있습니다.
+ * Zeppelin Notebook에서 데이터를 시각화할 수 있습니다.
+
+<hr>
+
+## 과정
+ * [Lab 1](/emrlab/lab1)
+ * [Lab 2](/emrlab/lab2) 
+ * [Lab 3](/emrlab/lab3)
+ * [Lab 4](/emrlab/lab4)
