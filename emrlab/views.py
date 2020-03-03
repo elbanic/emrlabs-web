@@ -1,5 +1,6 @@
 from django.shortcuts import render
 import os
+
 module_dir = os.path.dirname(__file__)  # get current directory
 labhome_content = os.path.join(module_dir, 'resources/emrlabhome.md')
 lab1_content = os.path.join(module_dir, 'resources/lab1.md')
