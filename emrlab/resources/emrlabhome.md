@@ -5,7 +5,7 @@ Amazon EMR은 업계 최고 수준의 클라우드 네이티브 빅데이터 플
 
 이번 실습을 통해 다음의 아키텍쳐를 실습하고 이해할 수 있습니다.
      
-<img src="https://public-access-sample-code.s3.ap-northeast-2.amazonaws.com/images/EMR-hands-on-architecture2.jpg" style="width:800px; height:400px" border="1px solid black">
+<img src="https://github.com/elbanic/emrlabs-web/blob/master/emrlab/resources/images/EMR-hands-on-architecture2.png?raw=true" border="1px solid black" width="90%">
 
 
 <br>
