@@ -1,4 +1,5 @@
-# EMR Hands-On Lab 1 - Kinesis Firehose
+<center><h1> EMR Hands-On Lab 1 - Kinesis Firehose </h1></center>
+
 <hr>
 
 이번 실습에서는 Kinesis Firehose를 이용하여 Amazon S3에 스트림 데이터를 저장하는 것을 배워봅니다. Amazon Kinesis Data Firehose 전송 스트림에 데이터를 전송하는 방법에는 여러가지 방법이 있습니다. 
@@ -10,7 +11,7 @@
  * CloudWatch 이벤트를 이용해 쓰기
  * AWS IoT를 이용해 쓰기
 
-이번 실습에서는 *에이전트를 이용해 쓰기*를 학습합니다. 나머지 실습은 [공식 문서](https://docs.aws.amazon.com/ko_kr/firehose/latest/dev/basic-write)를 참고해 주십시오.
+이번 실습에서는 ***에이전트를 이용해 쓰기***를 학습합니다. 나머지 실습은 [공식 문서](https://docs.aws.amazon.com/ko_kr/firehose/latest/dev/basic-write)를 참고해 주십시오.
 
 
 ## Table of Contents
@@ -24,6 +25,7 @@
 <br>
 
 # 사전 준비<a name="사전 준비"></a>
+
 <hr>
 
 ## EC2에서 Kinesis Firehose 접근 권한
@@ -121,7 +123,7 @@ AWS Management 콘솔 또는 AWS SDK를 사용해 선택한 대상으로 전송�
 
     <img src="https://github.com/elbanic/emrlabs-web/blob/master/emrlab/resources/images/lab1_pic15.png?raw=true" border="1px solid black" width="90%">
 
-6. Destination을 Amazon S3로 지정합니다. 버킷명은 Create new를 통해 `emr-lab-20200224`로 새로 생성합니다.
+6. Destination을 Amazon S3로 지정합니다. 버킷명은 Create new를 통해 `id-emr-lab-20200306`로 새로 생성합니다.
 
     <img src="https://github.com/elbanic/emrlabs-web/blob/master/emrlab/resources/images/lab1_pic16.png?raw=true" border="1px solid black" width="90%">
 
@@ -285,7 +287,7 @@ deliveryStream에 앞서 만든 키네시스 딜리버리 스트림의 이름으
 <hr>
 
 ## S3에서 데이터 확인
-앞서 delivery stream에서 지정한 S3 버킷에 위에서 생성한 데이터가 저장되는지 확인합니다. 아래 link를 클릭하 S3 페이지 이동합니다.
+앞서 delivery stream에서 지정한 S3 버킷에 위에서 생성한 데이터가 저장되는지 확인합니다. 아래 link를 클릭하여 S3 페이지 이동합니다.
 [link](https://s3.console.aws.amazon.com/s3/home?region=ap-northeast-2#)
 
 사전 준비 단계에서 생성한 S3 bucket을 클릭하여 탐색합니다. YYYY/mm/dd/hh 형태로 저장되어 있습니다.
@@ -300,4 +302,4 @@ Kinesis Firehose 페이지에서 앞서 만든 delivery stream을 클릭합니�
 
 <img src="https://github.com/elbanic/emrlabs-web/blob/master/emrlab/resources/images/lab1_pic24.png?raw=true" border="1px solid black" width="90%">
 
-<center><a href="/emrlab/lab2"><font size="6">Next Lab</font></a></center>
+<center><a href="/emrlab/lab2"><font size="5">Next Lab</font></a></center>
