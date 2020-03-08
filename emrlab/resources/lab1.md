@@ -244,7 +244,7 @@ deliveryStream에 앞서 만든 키네시스 딜리버리 스트림의 이름으
 <br>
 소스코드를 입력하고 :wq를 입력하여 파일을 저장합니다.
 
-```python
+```
     import random
     import time
     import json
