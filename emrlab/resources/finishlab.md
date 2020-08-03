@@ -50,6 +50,6 @@ EMR Hands-On Lab 실습이 완료되었습니다. 마지막으로 지금까지 �
     * EMR-lab-batch-20200306
 3. Terminate를 클릭하여 삭제합니다.
 
-<center><font size="5">감사합니다 <a href="https://www.surveymonkey.com/r/3V99DNP">(설문하러 가기)</a></font></center>
+<center><font size="5">감사합니다 <a href="https://www.surveymonkey.com/r/KJPZKSQ">(설문하러 가기)</a></font></center>
 
 <center><img src="https://github.com/elbanic/emrlabs-web/blob/master/emrlab/resources/images/QR_code_3V99DNP.png?raw=true" border="1px solid black" width="30%"></center>
